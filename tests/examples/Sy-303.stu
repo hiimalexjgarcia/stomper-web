@@ -1,0 +1,36 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 1
+FileVersion=1.25b
+[Oscillator 0]
+Enabled=-1
+Filter= 0
+WaveForm= 1
+Comment=Well, calling this sound "303" is stretching it a bit - but it's a very resonantly filtered sawtooth (playing a C3) anyway.... The levels are kept high to let the filter distort a bit, to give it a cruncier feel....
+StartT= 0
+EndT= 300
+StartA= 1
+EndA= 0
+StartF= 130.8128
+EndF= 130.8128
+CurveShape0= 5.0119
+CurveShape1= .8318
+CurveShape2= .5495
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 1]
+Enabled=-1
+Filter= 1
+WaveForm= 1
+Comment=Sweep, lots of rez...
+StartT= 0
+EndT= 350
+StartA= .99
+EndA= .993
+StartF= 9000
+EndF= 0
+CurveShape0= .0479
+CurveShape1= .7586
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0

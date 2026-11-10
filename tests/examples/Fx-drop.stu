@@ -1,0 +1,22 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 0
+FileVersion=3.01
+[Oscillator 0]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+WavFile=
+LoopWav= 0
+Comment=A simple frequency drop sound
+StartT= 0
+EndT= 600
+StartA= .95
+EndA= 0
+StartF= 200
+EndF= 20
+CurveShape0= .4571
+CurveShape1= 60.256
+CurveShape2= 1.8197
+NoiseBW= 0
+NoiseChangeRate= 0

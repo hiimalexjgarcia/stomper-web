@@ -1,0 +1,112 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 5
+FileVersion=2.5b
+
+[Oscillator 0]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+WavFile=0
+Comment=A fairly poor representation of an old drummachine handclap
+StartT= 40
+EndT= 240
+StartA= .5
+EndA= 0
+StartF= 1300
+EndF= 1300
+CurveShape0= .1
+CurveShape1= .2754
+CurveShape2= 1
+NoiseBW= 1
+NoiseChangeRate= 1
+
+[Oscillator 1]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+WavFile=0
+Comment=
+StartT= 0
+EndT= 5
+StartA= .5456702
+EndA= 0
+StartF= 4000
+EndF= 80
+CurveShape0= .871
+CurveShape1= 1.7378
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0
+
+[Oscillator 2]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+WavFile=0
+Comment=
+StartT= 7
+EndT= 12
+StartA= .6
+EndA= 0
+StartF= 4000
+EndF= 80
+CurveShape0= .871
+CurveShape1= 1.7378
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0
+
+[Oscillator 3]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+WavFile=0
+Comment=
+StartT= 18
+EndT= 23
+StartA= .7
+EndA= 0
+StartF= 4000
+EndF= 80
+CurveShape0= 1.2023
+CurveShape1= 2.3988
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0
+
+[Oscillator 4]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+WavFile=0
+Comment=
+StartT= 31
+EndT= 36
+StartA= .8
+EndA= 0
+StartF= 4000
+EndF= 80
+CurveShape0= 1.0471
+CurveShape1= 3.6308
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0
+
+[Oscillator 5]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+WavFile=0
+Comment=
+StartT= 100
+EndT= 300
+StartA= .7
+EndA= 0
+StartF= 1600
+EndF= 1600
+CurveShape0= .1
+CurveShape1= .1096
+CurveShape2= 1
+NoiseBW= 1
+NoiseChangeRate= 1

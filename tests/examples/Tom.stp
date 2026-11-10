@@ -1,0 +1,42 @@
+[Common]
+SampleFrequency= 44100
+Oscillators= 1
+FileVersion=3.02
+
+[Oscillator 0]
+Enabled= 1
+Filter= 0
+WaveForm= 0
+WavFile=
+LoopWav= 0
+Comment=
+StartT= 0
+EndT= 275
+StartA= .95
+EndA= 0
+StartF= 400
+EndF= 110
+CurveShape0= .1
+CurveShape1= .5012
+CurveShape2= 1.2589
+NoiseBW= 0
+NoiseChangeRate= 0
+
+[Oscillator 1]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+WavFile=
+LoopWav= 0
+Comment=
+StartT= 0
+EndT= 35
+StartA= .6
+EndA= 0
+StartF= 2000
+EndF= 1000
+CurveShape0= .5012
+CurveShape1= .5012
+CurveShape2= 1
+NoiseBW= 1
+NoiseChangeRate= 1

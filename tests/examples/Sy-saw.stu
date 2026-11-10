@@ -1,0 +1,52 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 2
+FileVersion=1.25b
+[Oscillator 0]
+Enabled=-1
+Filter= 0
+WaveForm= 1
+Comment=Simple saw wave with a light filter, slight detune between two osc's. Plays C3.
+StartT= 0
+EndT= 2000
+StartA= .2012712
+EndA= 0
+StartF= 130.8128
+EndF= 130.8128
+CurveShape0= .1
+CurveShape1= 7.9433
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 1]
+Enabled=-1
+Filter= 0
+WaveForm= 1
+Comment=Lightly detuned osc
+StartT= 0
+EndT= 2000
+StartA= .2012712
+EndA= 0
+StartF= 130
+EndF= 129
+CurveShape0= 15.1356
+CurveShape1= 8
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 2]
+Enabled=-1
+Filter= 1
+WaveForm= 0
+Comment=Light filter sweep.
+StartT= 0
+EndT= 2000
+StartA= .95
+EndA= .9
+StartF= 10000
+EndF= 0
+CurveShape0= .1318
+CurveShape1= 8
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0

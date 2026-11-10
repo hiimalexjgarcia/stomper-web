@@ -1,0 +1,20 @@
+[Common]
+SampleFrequency= 44100
+Oscillators= 0
+FileVersion=1.22b
+[Oscillator 0]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+Comment=A simple synthetic hihat
+StartT= 0
+EndT= 220
+StartA= 1
+EndA= 0
+StartF= 9000
+EndF= 9000
+CurveShape0= 3.9811
+CurveShape1= 3.9811
+CurveShape2= 2.3988
+NoiseBW= .15
+NoiseChangeRate= 0

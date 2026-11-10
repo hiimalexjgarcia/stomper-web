@@ -1,0 +1,52 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 2
+FileVersion=1.25b
+[Oscillator 0]
+Enabled=-1
+Filter= 0
+WaveForm= 2
+Comment=A vintage analog sound, using two 25% square waves, detuned slightly, and a filter with some resonance..... This osc plays straight C3
+StartT= 0
+EndT= 2000
+StartA= .1365957
+EndA= 0
+StartF= 130.8128
+EndF= 130.8128
+CurveShape0= .1
+CurveShape1= 7.9433
+CurveShape2= .5495
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 1]
+Enabled=-1
+Filter= 0
+WaveForm= 2
+Comment=Second osc, slightly detuned from the C3
+StartT= 0
+EndT= 2000
+StartA= .1365957
+EndA= 0
+StartF= 130
+EndF= 130
+CurveShape0= .1
+CurveShape1= 8
+CurveShape2= 2.5119
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 2]
+Enabled=-1
+Filter= 1
+WaveForm= 0
+Comment=A lite filter sweep....
+StartT= 0
+EndT= 2200
+StartA= .97
+EndA= .93
+StartF= 10000
+EndF= 0
+CurveShape0= .138
+CurveShape1= 8
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0

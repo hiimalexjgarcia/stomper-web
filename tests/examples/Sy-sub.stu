@@ -1,0 +1,52 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 2
+FileVersion=1.25b
+[Oscillator 0]
+Enabled=-1
+Filter= 0
+WaveForm= 2
+Comment=A vintage synth sound with a square (slightly detuned) sub-oscillator (playing a C2). The amplitudes are intentionally kept a bit high, to let the filter distort a little. Hehe.
+StartT= 0
+EndT= 2000
+StartA= .6
+EndA= 0
+StartF= 65
+EndF= 65
+CurveShape0= .1
+CurveShape1= .8318
+CurveShape2= .4365
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 1]
+Enabled=-1
+Filter= 0
+WaveForm= 1
+Comment=Main osc, plays C3
+StartT= 0
+EndT= 2000
+StartA= .6
+EndA= 0
+StartF= 130.8128
+EndF= 130.8128
+CurveShape0= 15.1356
+CurveShape1= .7586
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 2]
+Enabled=-1
+Filter= 1
+WaveForm= 0
+Comment=Light sweep.
+StartT= 0
+EndT= 2000
+StartA= .95
+EndA= .9
+StartF= 10000
+EndF= 0
+CurveShape0= .0479
+CurveShape1= 7.9433
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0

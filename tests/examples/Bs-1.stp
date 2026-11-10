@@ -1,0 +1,36 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 1
+FileVersion=1.22b
+[Oscillator 0]
+Enabled= 1
+Filter= 0
+WaveForm= 0
+Comment=A bass sound.... Stomper isn't hardwired to do drums, you know... :-)
+StartT= 0
+EndT= 600
+StartA= 1
+EndA= 0
+StartF= 55
+EndF= 55
+CurveShape0= .2089
+CurveShape1= 1.4454
+CurveShape2= 6.0256
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 1]
+Enabled= 1
+Filter= 0
+WaveForm= 0
+Comment=
+StartT= 0
+EndT= 10
+StartA= 1
+EndA= 0
+StartF= 2000
+EndF= 0
+CurveShape0= .3630781
+CurveShape1= 7.943282
+CurveShape2= 1
+NoiseBW= 1
+NoiseChangeRate= 0

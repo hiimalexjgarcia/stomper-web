@@ -1,0 +1,17 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 0
+[Oscillator 0]
+Enabled=-1
+Comment=Kraftwerk-ish "fjopp"
+StartT= 0
+EndT= 20
+StartA= 1
+EndA= 0
+StartF= 15000
+EndF= 0
+CurveShape0= .138
+CurveShape1= 7.9433
+CurveShape2= 1.5136
+NoiseBW= 0
+NoiseChangeRate= 0

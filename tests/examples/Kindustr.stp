@@ -1,0 +1,36 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 1
+FileVersion=1.22b
+[Oscillator 0]
+Enabled= 1
+Filter= 0
+WaveForm= 0
+Comment=Industry kik by Zap. Just the old standard thing, just a bit distorted, and with a very noisy "metallic" klick in oschillator 2.
+StartT= 0
+EndT= 150
+StartA= 1
+EndA= 0
+StartF= 1000
+EndF= 0
+CurveShape0= .0575
+CurveShape1= 2.7542
+CurveShape2= .3311
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 1]
+Enabled= 1
+Filter= 0
+WaveForm= 0
+Comment=Noisy klik
+StartT= 0
+EndT= 50
+StartA= 1
+EndA= 0
+StartF= 6000
+EndF= 4000
+CurveShape0= .1
+CurveShape1= .3981072
+CurveShape2= .724436
+NoiseBW= .9
+NoiseChangeRate= 1

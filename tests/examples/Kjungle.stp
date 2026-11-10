@@ -1,0 +1,31 @@
+[Common]
+SampleFrequency= 22000
+Oscillators= 1
+[Oscillator 0]
+Enabled= 1
+Comment=Mondo Large Jungle Kick
+StartT= 0
+EndT= 600
+StartA= 1
+EndA= 0
+StartF= 200
+EndF= 20
+CurveShape0= .2089296
+CurveShape1= 1.44544
+CurveShape2= .6025596
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 1]
+Enabled= 1
+Comment=
+StartT= 0
+EndT= 10
+StartA= 1
+EndA= 0
+StartF= 2000
+EndF= 0
+CurveShape0= .3630781
+CurveShape1= 7.943282
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0

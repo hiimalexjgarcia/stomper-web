@@ -1,0 +1,36 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 1
+FileVersion=1.22b
+[Oscillator 0]
+Enabled= 1
+Filter= 0
+WaveForm= 0
+Comment=Electronic Kick drum a' la' 808 or 606 or similar...
+StartT= 0
+EndT= 80
+StartA= 1
+EndA= 0
+StartF= 2000
+EndF= 0
+CurveShape0= .0398
+CurveShape1= 100
+CurveShape2= .6026
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 1]
+Enabled= 1
+Filter= 0
+WaveForm= 0
+Comment=Electronic Kick drum a' la' 808 or 606 or similar...
+StartT= 0
+EndT= 5
+StartA= 1
+EndA= 0
+StartF= 2000
+EndF= 0
+CurveShape0= 1.5849
+CurveShape1= 2.3988
+CurveShape2= 1
+NoiseBW= 1
+NoiseChangeRate= 0

@@ -1,0 +1,94 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 4
+FileVersion=2.5b
+
+[Oscillator 0]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+WavFile=0
+Comment=A pretty bad rep of a handclap sound.
+StartT= 30
+EndT= 230
+StartA= .9094502
+EndA= 0
+StartF= 1200
+EndF= 1600
+CurveShape0= .0064
+CurveShape1= .263
+CurveShape2= 1
+NoiseBW= 1
+NoiseChangeRate= 1
+
+[Oscillator 1]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+WavFile=0
+Comment=
+StartT= 0
+EndT= 6
+StartA= .5456702
+EndA= 0
+StartF= 2000
+EndF= 0
+CurveShape0= .7586
+CurveShape1= 1.7378
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0
+
+[Oscillator 2]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+WavFile=0
+Comment=
+StartT= 8
+EndT= 14
+StartA= .6366152
+EndA= 0
+StartF= 2000
+EndF= 0
+CurveShape0= 1.2023
+CurveShape1= 1.7378
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0
+
+[Oscillator 3]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+WavFile=0
+Comment=
+StartT= 19
+EndT= 25
+StartA= .6
+EndA= 0
+StartF= 2000
+EndF= 0
+CurveShape0= 1.9055
+CurveShape1= 1.7378
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0
+
+[Oscillator 4]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+WavFile=0
+Comment=
+StartT= 26
+EndT= 32
+StartA= .6
+EndA= 0
+StartF= 2000
+EndF= 0
+CurveShape0= 1.4454
+CurveShape1= 1.7378
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0

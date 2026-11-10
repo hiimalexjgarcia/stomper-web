@@ -1,0 +1,31 @@
+[Common]
+SampleFrequency= 22000
+Oscillators= 1
+[Oscillator 0]
+Enabled= 1
+Comment=A nice dance-kick, but not quite a 909 kick.  Osc 1: Is the main falling tone of the kick
+StartT= 0
+EndT= 200
+StartA= 1
+EndA= 0
+StartF= 1000
+EndF= 0
+CurveShape0= 9.549926E-02
+CurveShape1= 5.011872
+CurveShape2= .7943282
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 1]
+Enabled= 1
+Comment=Osc 2: Additional "click" sound for the start of the kickdrum
+StartT= 0
+EndT= 20
+StartA= 1
+EndA= 0
+StartF= 2000
+EndF= 0
+CurveShape0= .1
+CurveShape1= .6025596
+CurveShape2= .1258925
+NoiseBW= 0
+NoiseChangeRate= 0

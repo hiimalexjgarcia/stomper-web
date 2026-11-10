@@ -1,0 +1,45 @@
+[Common]
+SampleFrequency= 22000
+Oscillators= 2
+[Oscillator 0]
+Enabled= 1
+Comment=A 3-oscillator soundeffect: First a pitch-rising narrowband noise, a videogame-bleep, and a pjouff at the end.
+StartT= 0
+EndT= 200
+StartA= 1
+EndA= 0
+StartF= 0
+EndF= 3000
+CurveShape0= 3.162278
+CurveShape1= 7.943282
+CurveShape2= 1
+NoiseBW= .6
+NoiseChangeRate= 0
+[Oscillator 1]
+Enabled= 1
+Comment=
+StartT= 500
+EndT= 700
+StartA= 1
+EndA= 0
+StartF= 2000
+EndF= 0
+CurveShape0= .1
+CurveShape1= .2398833
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 2]
+Enabled= 1
+Comment=
+StartT= 200
+EndT= 600
+StartA= .3
+EndA= .8
+StartF= 4000
+EndF= 4000
+CurveShape0= .1
+CurveShape1= 7.943282
+CurveShape2= 1
+NoiseBW= .7
+NoiseChangeRate= 1000

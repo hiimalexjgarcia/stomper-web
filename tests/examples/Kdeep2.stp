@@ -1,0 +1,31 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 1
+[Oscillator 0]
+Enabled= 1
+Comment=Deep kick with a mellow initial klick
+StartT= 0
+EndT= 300
+StartA= 1
+EndA= 0
+StartF= 200
+EndF= 20
+CurveShape0= .182
+CurveShape1= 7.5858
+CurveShape2= .6607
+NoiseBW= .2
+NoiseChangeRate= 1
+[Oscillator 1]
+Enabled= 1
+Comment=
+StartT= 0
+EndT= 8
+StartA= 1
+EndA= 0
+StartF= 1000
+EndF= 0
+CurveShape0= .7586
+CurveShape1= 7.9433
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0

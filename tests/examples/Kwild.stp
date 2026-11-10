@@ -1,0 +1,52 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 2
+FileVersion=1.22b
+[Oscillator 0]
+Enabled= 1
+Filter= 0
+WaveForm= 0
+Comment=A pretty darn wild kick drum sound :-)
+StartT= 0
+EndT= 200
+StartA= 1
+EndA= 0
+StartF= 2000
+EndF= 0
+CurveShape0= .0457
+CurveShape1= 100
+CurveShape2= 1.3183
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 1]
+Enabled= 1
+Filter= 0
+WaveForm= 0
+Comment=
+StartT= 0
+EndT= 20
+StartA= 1
+EndA= 0
+StartF= 2000
+EndF= 0
+CurveShape0= .0501
+CurveShape1= 1.5849
+CurveShape2= .6026
+NoiseBW= 1
+NoiseChangeRate= 1
+[Oscillator 2]
+Enabled= 1
+Filter= 0
+WaveForm= 0
+Comment=
+StartT= 10
+EndT= 310
+StartA= .4
+EndA= 0
+StartF= 3000
+EndF= 0
+CurveShape0= .024
+CurveShape1= 100
+CurveShape2= 3.9811
+NoiseBW= 0
+NoiseChangeRate= 0

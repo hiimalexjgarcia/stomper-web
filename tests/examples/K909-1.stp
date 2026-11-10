@@ -1,0 +1,17 @@
+[Common]
+SampleFrequency= 22000
+Oscillators= 0
+[Oscillator 0]
+Enabled= 1
+Comment=A fairly faitful representation of a 909 kick drum. Either way, a nice dance-kick
+StartT= 0
+EndT= 200
+StartA= 1
+EndA= 0
+StartF= 1000
+EndF= 0
+CurveShape0= 6.309573E-02
+CurveShape1= 7.943282
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0

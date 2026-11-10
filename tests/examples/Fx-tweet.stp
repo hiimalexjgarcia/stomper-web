@@ -1,0 +1,17 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 0
+[Oscillator 0]
+Enabled=-1
+Comment=Bird Tweet
+StartT= 0
+EndT= 200
+StartA= 1
+EndA= 0
+StartF= 1000
+EndF= 2000
+CurveShape0= 2.6303
+CurveShape1= 3.3113
+CurveShape2= 4.3652
+NoiseBW= 0
+NoiseChangeRate= 0

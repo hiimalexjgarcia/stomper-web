@@ -1,0 +1,52 @@
+[Common]
+SampleFrequency= 22050
+Oscillators= 2
+FileVersion=2.02b
+[Oscillator 0]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+Comment=A kickdrum using a two-step main tone to let the tone linger at about 50 hz for a while, for some extra depth and bottom...
+StartT= 0
+EndT= 200
+StartA= .95
+EndA= .95
+StartF= 2000
+EndF= 50
+CurveShape0= .0302
+CurveShape1= 7.9433
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 1]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+Comment=
+StartT= 200
+EndT= 400
+StartA= .95
+EndA= 0
+StartF= 50
+EndF= 0
+CurveShape0= 6.6069
+CurveShape1= 8
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 2]
+Enabled=-1
+Filter= 0
+WaveForm= 0
+Comment=
+StartT= 0
+EndT= 5
+StartA= .95
+EndA= 0
+StartF= 2000
+EndF= 0
+CurveShape0= .7586
+CurveShape1= 8
+CurveShape2= 1
+NoiseBW= 1
+NoiseChangeRate= 4

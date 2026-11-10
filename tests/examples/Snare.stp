@@ -1,0 +1,45 @@
+[Common]
+SampleFrequency= 22000
+Oscillators= 2
+[Oscillator 0]
+Enabled= 1
+Comment=A 3-oschillator snaredrum. Osc 1 is the main tone, Osc 2 the noise, and Osc 3 the initial click
+StartT= 0
+EndT= 100
+StartA= 1
+EndA= 0
+StartF= 2000
+EndF= 80
+CurveShape0= 4.365158E-02
+CurveShape1= .9549926
+CurveShape2= 1
+NoiseBW= 0
+NoiseChangeRate= 0
+[Oscillator 1]
+Enabled= 1
+Comment=
+StartT= 0
+EndT= 200
+StartA= .4
+EndA= 0
+StartF= 8000
+EndF= 8000
+CurveShape0= .1
+CurveShape1= .5495409
+CurveShape2= 1
+NoiseBW= .6
+NoiseChangeRate= 1
+[Oscillator 2]
+Enabled= 1
+Comment=
+StartT= 0
+EndT= 16
+StartA= 1
+EndA= 0
+StartF= 2000
+EndF= 100
+CurveShape0= .1096478
+CurveShape1= 7.943282
+CurveShape2= .6309574
+NoiseBW= .4
+NoiseChangeRate= 1000
