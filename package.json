@@ -1,7 +1,7 @@
 {
   "name": "stomper-web",
   "private": true,
-  "version": "5.0.0",
+  "version": "5.0.1",
   "type": "module",
   "description": "Stomper Hyperion 5.0 — web port of the 1999/2000 software synthesizer STOMPER32.EXE",
   "scripts": {
