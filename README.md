@@ -1,5 +1,7 @@
 # Stomper Hyperion 5.0 — web port
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1ed121d0-6a56-43cd-ab84-2c40070224a9/deploy-status)](https://app.netlify.com/projects/fastidious-cobbler-4c6f7e/deploys)
+
 A browser port of the 1999/2000 software synthesizer **STOMPER32.EXE**. The sound
 engine, the 64-slot oscillator model, the `.STU`/`.STP` file format and the
 envelope/FM/AM/filter behaviour were recovered statically from the original
@@ -13,8 +15,9 @@ to an offline render of the song.
 
 ## Quick start
 
+Requires Node.js 22 or newer.
+
 ```bash
-cd stomper-web
 npm install
 npm run dev          # http://127.0.0.1:5173
 ```
@@ -118,6 +121,7 @@ src/
 tests/       node:test suites (DSP, INI, units, reference renders)
 tests/examples/  reference .STU/.STP songs and original WAV renders
 tools/       CDP browser smoke test (needs Chrome)
+docs/application-flow.md  runtime and user-flow diagrams
 docs/references/  reverse-engineering notes, port design and REA snapshot
 ```
 
@@ -126,6 +130,9 @@ Reference material lives in [`docs/references/`](docs/references/):
 - [`STOMPER32-analysis.md`](docs/references/STOMPER32-analysis.md) — static reverse-engineering notes
 - [`STOMPER32-web-port-design.md`](docs/references/STOMPER32-web-port-design.md) — port design
 - `docs/references/STOMPER32.rea-snapshot.json` — REA analysis snapshot
+
+See [`docs/application-flow.md`](docs/application-flow.md) for the runtime
+overview and the startup, file, edit/undo, playback, export and DSP flows.
 
 ## Scope
 
